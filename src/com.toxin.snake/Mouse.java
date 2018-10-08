@@ -1,23 +1,21 @@
 package com.toxin.snake;
 
-public class Mouse
-{
+public class Mouse {
+
     private int x;
     private int y;
 
-    public Mouse(int x, int y)
-    {
+    public Mouse(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
-    public int getX()
-    {
+    public int getX() {
         return x;
     }
 
-    public int getY()
-    {
+    public int getY() {
         return y;
     }
+
 }

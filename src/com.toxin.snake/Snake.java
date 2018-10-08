@@ -5,49 +5,41 @@ import java.util.ArrayList;
 /**
  * Класс змея
  */
-public class Snake
-{
+public class Snake {
     //Направление движения змеи
     private SnakeDirection direction;
     //Состояние - жива змея или нет.
     private boolean isAlive;
     //Список кусочков змеи.
-    private ArrayList<SnakeSection> sections = new ArrayList<SnakeSection>();
+    private ArrayList<SnakeSection> sections;
 
-    public Snake(int x, int y)
-    {
-        sections = new ArrayList<SnakeSection>();
+    public Snake(int x, int y) {
+        sections = new ArrayList<>();
         sections.add(new SnakeSection(x, y));
         isAlive = true;
     }
 
-    public boolean isAlive()
-    {
+    public boolean isAlive() {
         return isAlive;
     }
 
-    public int getX()
-    {
+    public int getX() {
         return sections.get(0).getX();
     }
 
-    public int getY()
-    {
+    public int getY() {
         return sections.get(0).getY();
     }
 
-    public SnakeDirection getDirection()
-    {
+    public SnakeDirection getDirection() {
         return direction;
     }
 
-    public void setDirection(SnakeDirection direction)
-    {
+    public void setDirection(SnakeDirection direction) {
         this.direction = direction;
     }
 
-    public ArrayList<SnakeSection> getSections()
-    {
+    public ArrayList<SnakeSection> getSections() {
         return sections;
     }
 
@@ -55,8 +47,7 @@ public class Snake
      * Метод перемещает змею на один ход.
      * Направление перемещения задано переменной direction.
      */
-    public void move()
-    {
+    public void move() {
         if (!isAlive) return;
 
         if (direction == SnakeDirection.UP)
@@ -73,8 +64,7 @@ public class Snake
      * Метод перемещает змею в соседнюю клетку.
      * Кординаты клетки заданы относительно текущей головы с помощью переменных (dx, dy).
      */
-    private void move(int dx, int dy)
-    {
+    private void move(int dx, int dy) {
         //Создаем новую голову - новый "кусочек змеи".
         SnakeSection head = sections.get(0);
         head = new SnakeSection(head.getX() + dx, head.getY() + dy);
@@ -93,8 +83,7 @@ public class Snake
         {
             sections.add(0, head);                  //Добавили новую голову
             Room.game.eatMouse();                   //Хвот не удаляем, но создаем новую мышь.
-        }
-        else //просто движется
+        } else //просто движется
         {
             sections.add(0, head);                  //добавили новую голову
             sections.remove(sections.size() - 1);   //удалили последний элемент с хвоста
@@ -102,24 +91,21 @@ public class Snake
     }
 
     /**
-     *  Метод проверяет - находится ли новая голова в пределах комнаты
+     * Метод проверяет - находится ли новая голова в пределах комнаты
      */
-    private void checkBorders(SnakeSection head)
-    {
-        if ((head.getX() < 0 || head.getX() >= Room.game.getWidth()) || head.getY() < 0 || head.getY() >= Room.game.getHeight())
-        {
+    private void checkBorders(SnakeSection head) {
+        if ((head.getX() < 0 || head.getX() >= Room.game.getWidth()) || head.getY() < 0 || head.getY() >= Room.game.getHeight()) {
             isAlive = false;
         }
     }
 
     /**
-     *  Метод проверяет - не совпадает ли голова с каким-нибудь участком тела змеи.
+     * Метод проверяет - не совпадает ли голова с каким-нибудь участком тела змеи.
      */
-    private void checkBody(SnakeSection head)
-    {
-        if (sections.contains(head))
-        {
+    private void checkBody(SnakeSection head) {
+        if (sections.contains(head)) {
             isAlive = false;
         }
     }
+
 }

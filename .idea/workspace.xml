@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9606b9e7-1838-4677-91a0-2a370ec9ec7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.toxin.snake/KeyboardObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.toxin.snake/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.toxin.snake/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.toxin.snake/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.toxin.snake/SnakeDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.toxin.snake/SnakeSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Project_SNAKE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_SNAKE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_SNAKE.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Snake.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Snake.jar — ярлык.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.toxin.snake/KeyboardObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.toxin.snake/KeyboardObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.toxin.snake/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.toxin.snake/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.toxin.snake/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.toxin.snake/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.toxin.snake/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.toxin.snake/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.toxin.snake/SnakeDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.toxin.snake/SnakeDirection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.toxin.snake/SnakeSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.toxin.snake/SnakeSection.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,22 +26,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="22" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="22" />
+          <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
     </session>
@@ -56,27 +52,87 @@
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.toxin.snake/Snake.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com.toxin.snake/KeyboardObserver.java">
+        <entry file="file://$PROJECT_DIR$/src/com.toxin.snake/SnakeDirection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#388#398#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com.toxin.snake/SnakeSection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.toxin.snake/KeyboardObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1145#1146#0" expanded="true" />
+                <element signature="e#1191#1192#0" expanded="true" />
+                <element signature="e#1533#1534#0" expanded="true" />
+                <element signature="e#1581#1582#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.toxin.snake/Mouse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com.toxin.snake/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2023">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="470">
+              <caret line="166" selection-start-line="166" selection-end-line="166" />
+              <folding>
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#844#845#0" expanded="true" />
+                <element signature="e#878#879#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#3836#3837#0" expanded="true" />
+                <element signature="e#3865#3866#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,8 +145,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com.toxin.snake/Snake.java" />
+        <option value="$PROJECT_DIR$/src/com.toxin.snake/KeyboardObserver.java" />
+        <option value="$PROJECT_DIR$/src/com.toxin.snake/Mouse.java" />
         <option value="$PROJECT_DIR$/src/com.toxin.snake/Room.java" />
+        <option value="$PROJECT_DIR$/src/com.toxin.snake/Snake.java" />
+        <option value="$PROJECT_DIR$/src/com.toxin.snake/SnakeDirection.java" />
+        <option value="$PROJECT_DIR$/src/com.toxin.snake/SnakeSection.java" />
       </list>
     </option>
   </component>
@@ -140,13 +200,18 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539025843871" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539025991083" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DEVELOPER\JAVA\Project_SNAKE\src\com.toxin.snake" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.waRoom">
+  <component name="RunManager" selected="Application.Room">
     <configuration name="Room" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.toxin.snake.Room" />
       <module name="Project_SNAKE" />
@@ -193,8 +258,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.waRoom" />
         <item itemvalue="Application.Room" />
+        <item itemvalue="Application.waRoom" />
       </list>
     </recent_temporary>
   </component>
@@ -208,12 +273,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539025597338</updated>
-      <workItem from="1539025599752" duration="232000" />
+      <workItem from="1539025599752" duration="513000" />
     </task>
+    <task id="LOCAL-00001" summary="inti console">
+      <created>1539025897487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539025897487</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232000" />
+    <option name="totallyTimeSpent" value="513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -224,7 +297,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -234,7 +307,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.8295082" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.8737705" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -255,27 +328,160 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inti console" />
+    <option name="LAST_COMMIT_MESSAGE" value="inti console" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com.toxin.snake/Snake.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com.toxin.snake/KeyboardObserver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="434">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#388#398#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
+            <element signature="e#1581#1582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.toxin.snake/Mouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com.toxin.snake/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2023">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state relative-caret-position="470">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
+          <folding>
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#3836#3837#0" expanded="true" />
+            <element signature="e#3865#3866#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.toxin.snake/Snake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.toxin.snake/SnakeDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.toxin.snake/SnakeSection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Project_SNAKE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

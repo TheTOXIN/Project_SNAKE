@@ -1,8 +1,7 @@
 package com.toxin.snake;
 
 
-public enum  SnakeDirection
-{
+public enum SnakeDirection {
     UP,
     RIGHT,
     DOWN,
