@@ -23,6 +23,10 @@ public class Snake {
         return isAlive;
     }
 
+    public void setAlive(boolean alive) {
+        isAlive = alive;
+    }
+
     public int getX() {
         return sections.get(0).getX();
     }
@@ -78,11 +82,11 @@ public class Snake {
         if (!isAlive) return;
 
         //Проверяем - не съела ли змея мышь.
-        Mouse mouse = Room.game.getMouse();
+        Mouse mouse = Game.room.getMouse();
         if (head.getX() == mouse.getX() && head.getY() == mouse.getY()) //съела
         {
             sections.add(0, head);                  //Добавили новую голову
-            Room.game.eatMouse();                   //Хвот не удаляем, но создаем новую мышь.
+            Game.room.eatMouse();                   //Хвот не удаляем, но создаем новую мышь.
         } else //просто движется
         {
             sections.add(0, head);                  //добавили новую голову
@@ -94,7 +98,7 @@ public class Snake {
      * Метод проверяет - находится ли новая голова в пределах комнаты
      */
     private void checkBorders(SnakeSection head) {
-        if ((head.getX() < 0 || head.getX() >= Room.game.getWidth()) || head.getY() < 0 || head.getY() >= Room.game.getHeight()) {
+        if ((head.getX() < 0 || head.getX() >= Game.room.getWidth()) || head.getY() < 0 || head.getY() >= Game.room.getHeight()) {
             isAlive = false;
         }
     }
